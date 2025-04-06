@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>automator_actioner</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="automator-baselib">
+      <HintPath>..\..\automator-baselib\automator-baselib\bin\Debug\net8.0\automator-baselib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
